@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Pizza - Pago Final</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script> 
+</head>
+<body>
+    <header class="header">
+        <h1>💰 ¡Momento de Pagar!</h1>
+    </header>
+
+    <main class="container">
+        <section class="seccion-pago">
+            
+            <div class="total-orden">
+                <h3>Tu Gran Total es: <span id="total-pago-final">$0.00</span></h3>
+            </div>
+            <hr>
+
+            <h2>Selecciona tu Método de Pago</h2>
+            
+            <form id="formulario-pago">
+                <div class="opcion-pago">
+                    <label><input type="radio" name="pago" value="Tarjeta de Crédito" required> 💳 Tarjeta de Crédito/Débito</label>
+                    <p class="nota-pago">Aceptamos Visa, Mastercard, y RobuxCard.</p>
+                </div>
+
+                <div class="opcion-pago">
+                    <label><input type="radio" name="pago" value="Transferencia"> 🏦 Transferencia Bancaria</label>
+                    <p class="nota-pago">Se requiere comprobante de pago.</p>
+                </div>
+
+                <div class="opcion-pago">
+                    <label><input type="radio" name="pago" value="Efectivo"> 💵 Efectivo al Recibir</label>
+                    <p class="nota-pago">Solo aplica para pedidos a domicilio.</p>
+                </div>
+
+                <button type="submit" class="boton-principal">
+                    Confirmar Pedido ✅
+                </button>
+            </form>
+            
+            <a href="carrito.html" class="boton-secundario">
+                ⬅️ Volver al Carrito
+            </a>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 Roblox Pizza Fan App</p>
+    </footer>
+</body>
+</html>
