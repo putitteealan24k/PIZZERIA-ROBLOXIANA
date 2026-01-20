@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Pizza - Menú</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1>🏗️ Arma tu Pizza Épica</h1>
+    </header>
+
+    <main class="container">
+        <form id="formulario-pizza">
+            
+            <section class="seccion-ingredientes">
+                <h2>1. Ingredientes Base</h2>
+                <label><img src="C:\Users\agude\OneDrive\Escritorio\proyecto roblox\img\pepperoni.jpeg" alt="pepperoni" class="icono-ingrediente"><input type="checkbox" name="ingrediente" value="Pepperoni"> Pepperoni (+ $20.00)</label>
+                <label><img src="C:\Users\agude\OneDrive\Escritorio\proyecto roblox\img\champin.jpeg" alt="champinones" class="icono-ingrediente"><input type="checkbox" name="ingrediente" value="Champiñones"> Champiñones (+ $15.00)</label>
+                <label><img src="C:\Users\agude\OneDrive\Escritorio\proyecto roblox\img\jamoncito ;d.jpeg" alt="jamoncito" class="icono-ingrediente"><input type="checkbox" name="ingrediente" value="Jamon"> Jamon (+ $20.50)</label>
+                <label><img src="C:\Users\agude\OneDrive\Escritorio\proyecto roblox\img\queso.jpeg" alt="Queso" class="icono-ingrediente"><input type="checkbox" name="ingrediente" value="Queso"> Queso (+ $15.00)</label>
+                </section>
+            
+            <section class="seccion-extras">
+                <h2>2. ¡Añade Power-Ups (Extras)!</h2>
+                
+                <h3>Bebidas 🥤</h3>
+                <select name="bebida">
+                    <option value="Ninguno">Ninguno</option>
+                    <option value="Cola grande">Cola Cola (+ $15.00)</option>
+                    <option value="Limonada"> Limonada  (+ $25.00)<img src="C:\Users\agude\OneDrive\Escritorio\proyecto roblox\img\limonada.webp" alt="limonada">Limonada (+ $3.00)</option>
+                    </select>
+
+                <h3>Adicionales 🍟</h3>
+                <label><input type="checkbox" name="extra" value="Papas Fritas Grandes"> Papas Fritas Grandes (+ $30.00)</label>
+                <label><input type="checkbox" name="extra" value="Palitos de Queso"> Palitos de Queso (+ $40.00)</label>
+                </section>
+            
+            <button type="button" id="btn-agregar-carrito" class="boton-principal">
+                Añadir al Carrito 🛒
+            </button>
+        </form>
+        
+        <a href="carrito.html" class="boton-secundario">
+            Ver Carrito y Pagar
+        </a>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
